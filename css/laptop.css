@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+/* 윈도우 크기가 1190px 이하 ~ 960 px 이상일때 -> 최대(max-width) 1199px    최소(min-width) 960px */
+
+@media all and (max-width:1199px) and (min-width:960px){
+
+    /* body{
+        overflow-x: hidden;
+    } */
+    #wrap .sub-menu-box #tab6.active{
+        padding: 0 120px;
+        box-sizing: border-box;
+    }
+    .sec-3 .container .section-head-box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec-3 .container .section-head-box .txt-box{
+        width: 277.5px;
+    }
+    .sec-3 .container .section-head-box .txt-box .arrow-r{
+        width: 277.5px;
+        height: 30px;
+        background: url(../img/sec-3/stroke-long.svg) no-repeat center;
+        background-size: cover;
+        display: block;
+    }
+    .sec-3 .container .animate-slider-wrap .animate-slider .content .txt-box{
+        opacity: 1;
+        background-color:rgba(255, 255, 255, 0.4);
+    }
+
+    .sec-5 .txt-box{
+        width: 80%;
+        height: 747px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        text-align: start;
+        padding-left: 120px;
+        box-sizing: border-box;
+    }
+    .sec-6 .txt-box{
+        width: 80%;
+        height: 747px;
+        text-align: end;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-direction: column;
+        padding-right: 120px;
+        box-sizing: border-box;
+    }
+
+
+    footer .sec-11{
+        height: 300px;
+    }
+    footer .sec-11 .sec-11-wrap{
+        height: 300px;
+    }
+    footer .sec-11 .sec-11-wrap .txt-box-wrap{
+        justify-content: center;
+        height: 300px;
+    }
+    footer .sec-11 .sec-11-wrap .first-line{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .sec-11 .sec-11-wrap .first-line .txt-box p{
+        margin-bottom: 20px;
+    }
+    footer .sec-11 .sec-11-wrap .second-line{
+        margin-bottom: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .sec-11 .sec-11-wrap .second-line p{
+        margin-bottom: 20px;
+    }
+    footer .footer{
+        padding: 0 100px;
+        box-sizing: border-box;
+    }
+}
